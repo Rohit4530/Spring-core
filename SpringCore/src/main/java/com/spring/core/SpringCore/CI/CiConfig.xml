@@ -23,7 +23,7 @@ http://www.springframework.org/schema/context/spring-context.xsd">
       <constructor-arg value="ADHAR"/>
   </bean>
   <bean class="com.spring.core.SpringCore.CI.Addtion" name="add">
-     <constructor-arg value="15" type="int"/>
-     <constructor-arg value="65" type="int"/>
+     <constructor-arg value="15" />
+     <constructor-arg value="65" />
   </bean>
 </beans>
